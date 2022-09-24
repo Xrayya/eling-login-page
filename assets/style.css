@@ -236,7 +236,14 @@ button.login {
   line-height: 24px;
   text-align: center;
 
+  transition: 300ms;
+  transition-timing-function: ease-in-out;
+
   color: #ffffff;
+}
+
+button.login:hover {
+  background-color: #fbc75d;
 }
 
 .remember-username {
@@ -246,7 +253,7 @@ button.login {
   gap: 10px;
 }
 
-input[name='remember'] {
+input#remember {
   width: 20px;
   height: 20px;
 }
