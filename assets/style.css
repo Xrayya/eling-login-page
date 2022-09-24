@@ -41,6 +41,7 @@ body {
 
   width: 100%;
   height: fit-content;
+  box-sizing: border-box;
 }
 
 .sso-info {
@@ -107,6 +108,7 @@ body {
 
   width: 100%;
   height: fit-content;
+  box-sizing: border-box;
 }
 
 .section-break > span:nth-child(1) {
@@ -143,6 +145,7 @@ body {
 
   width: 100%;
   height: fit-content;
+  box-sizing: border-box;
 }
 
 .login-info > span {
@@ -210,6 +213,7 @@ input.password {
 
   width: 100%;
   height: fit-content;
+  box-sizing: border-box;
 }
 
 button.login {
